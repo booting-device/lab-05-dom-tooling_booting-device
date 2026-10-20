@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sudoku - High Scores</title>
+    <link rel="stylesheet" href="styles/sudoku.css" />
+    <script type="module" src="scripts/high_scores.js"></script>
+    <!-- Part 1: write the markup below. Part 2: style it in
+         styles/sudoku.css. No JavaScript this week. -->
+  </head>
+  <body>
+    <!-- TODO (Part 1): the SAME site header as index.html (copy it across -
+         feeling this duplication is the point; a framework fixes it later). -->
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Sudoku Centre home">
+        <img src="images/logo.gif" alt="" />
+        <span>Sudoku Centre</span>
+      </a>
+
+      <nav>
+        <a href="index.html">Play Game</a>
+        <a href="high_scores.html">High Scores</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>High Scores</h1>
+      <table class="scores">
+        <thead>
+        <tr><th scope="col">Date</th><th scope="col">Duration</th></tr>
+        </thead>
+        <tbody id="scores-body"></tbody>
+      </table>
+    </main>
+  </body>
+</html>
